@@ -1,0 +1,41 @@
+[project]
+name = "asyncroscopy"
+version = "0.1.0"
+description = "Asyncroscopy: asynchronous control framework for STEM automation"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "colorama>=0.4.6",
+    "defusedxml>=0.7.1",
+    "gevent>=25.9.1",
+    "h5py>=3.15.1",
+    "ipykernel>=7.1.0",
+    "jupyter>=1.1.1",
+    "lxml>=6.0.2",
+    "matplotlib>=3.10.7",
+    "multiprocess>=0.70.19",
+    "numpy>=2.3.5",
+    "opencv-python>=4.13.0.92",
+    "pillow>=12.1.0",
+    "pytango==10.1.2",
+    "pytest>=9.0.2",
+    "ruff>=0.15.2",
+    "ase>=3.27.0",
+    "pyTEMlib>=0.2024.1.0",
+    "sidpy>=0.12.8",
+    "fastmcp>=0.1.0",
+    "anyio>=4.0.0",
+    "jupyter-book>=2.0.0",
+    "pyyaml>=6.0.3",
+    "pyqt5>=5.15.11,<5.16",
+    "pyqt5-qt5==5.15.2; sys_platform == 'win32'",
+    "pyqt6>=6.8,<6.13",
+    "torch>=2.12.1",
+]
+
+[tool.setuptools]
+package-dir = { "" = "." }
+
+[tool.setuptools.packages.find]
+include = ["asyncroscopy*"]
+
