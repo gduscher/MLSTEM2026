@@ -20,7 +20,7 @@ Participants will work with provided notebooks and materials throughout the week
 ---
 
 ## 📚 Schedule
-A detailed schedule is published on the website:
+A detailed schedule is available as a PDF-file in Documents and published on the website:
 
 🕓 **https://kaliningroup.github.io/summer_school/program/**
 
