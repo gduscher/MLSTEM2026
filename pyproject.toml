@@ -3,7 +3,7 @@ name = "asyncroscopy"
 version = "0.1.0"
 description = "Asyncroscopy: asynchronous control framework for STEM automation"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = "==3.12.13"
 dependencies = [
     "colorama>=0.4.6",
     "defusedxml>=0.7.1",
@@ -25,7 +25,9 @@ dependencies = [
     "sidpy>=0.12.8",
     "fastmcp>=0.1.0",
     "anyio>=4.0.0",
+    "aicspylibczi>=3.3.1",
     "jupyter-book>=2.0.0",
+    "tiled[all]>=0.2.9",
     "pyyaml>=6.0.3",
     "pyqt5>=5.15.11,<5.16",
     "pyqt5-qt5==5.15.2; sys_platform == 'win32'",
