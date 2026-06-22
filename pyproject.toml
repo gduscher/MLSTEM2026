@@ -35,6 +35,7 @@ dependencies = [
     "torch>=2.12.1",
     "pip>=26.1.2",
     "abtem>=1.0.9",
+    "nodejs>=0.1.1",
 ]
 
 [tool.setuptools]
