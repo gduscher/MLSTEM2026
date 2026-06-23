@@ -1,0 +1,16 @@
+[project]
+name = "mlstem2026-compressed-sensing"
+version = "0.1.0"
+description = "Environment for the Day 2 compressed sensing notebook"
+requires-python = ">=3.11"
+dependencies = [
+    "ipympl>=0.9",
+    "jupyterlab>=4.4",
+    "matplotlib>=3.10",
+    "numpy>=2.2",
+    "pillow>=11.0",
+    "scipy>=1.15",
+]
+
+[tool.uv]
+package = false
